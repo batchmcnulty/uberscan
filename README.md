@@ -232,7 +232,7 @@ As -debug, but also logs very commonplace errors that would otherwise drown out 
 
 -csv
 ALL output files, with the exception of webpages saved in html scanning mode, are saved in CSV format.
-Data saved, in order saved is: scan type, IP address, port number, username, password, and "minutesup" - the number of minutes UBERSCAN has been running.
+Data saved, in order saved is: Process ID, scan type, IP address, port number, username, password, and "minutesup" - the number of minutes UBERSCAN has been running.
 
 
 -whois
