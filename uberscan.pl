@@ -2309,7 +2309,7 @@ sub HackSMTP()	{
 		$banner = $reply;
 		$smtp_code = substr ($reply,0,3);
 		print "SMTP error code: $smtp_code";
-		unless ($smtp_code eq "250" || $smtp_code eq "220" || $smtp_code eq "211")	{
+		unless ($smtp_code eq "200" || $smtp_code eq "250" || $smtp_code eq "220" || $smtp_code eq "211")	{
 			print "### Proxy might have hit a blacklist or couldn't look me up cos we're evil haxxors ###";
 			print "### Proxy might have hit a blacklist or couldn't look me up cos we're evil haxxors ###";
 			print "### Proxy might have hit a blacklist or couldn't look me up cos we're evil haxxors ###";
@@ -2345,7 +2345,7 @@ sub HackSMTP()	{
 				$conn_error = "no";
 			}
 				# There follows an annoying multi-line banner thingie
-			elsif ($reply == "220-We do not authorize the use of this system to transport unsolicited,")	{
+			elsif ($reply =~ "220-We do not authorize the use of this system to transport unsolicited,")	{
 				until ($reply =~ "ello" || $reply =~ "reetings" || $reply =~ "gmail" || $smtploop ==5)	{
 					print "\n ** Getting multi-line response, looping: $smtploop Reply:";
 					$reply = <$socket>;
@@ -2379,7 +2379,7 @@ sub HackSMTP()	{
 				######### PROCESS REPLY TO VRFY #######################
 
 				# Deals with all exceptions to VRFY command
-			
+
 				# If reply comes back empty, some sort of connection error
 				unless (defined $reply && $reply ne '')	{
 					print "## Reply not defined - probably a timeout bug?? Retrying...## ";
@@ -2392,8 +2392,9 @@ sub HackSMTP()	{
 					close ($socket);
 					return;
 				}
+				
 					# Found a username
-				elsif ($smtp_code eq "250" || $smtp_code eq "220" || $smtp_code eq "211")	{
+				elsif ($smtp_code eq "200" || $smtp_code eq "250" || $smtp_code eq "220" || $smtp_code eq "211")	{
 					####### YAAAY SUCESSSS!!!! ######
 					$addenda = "Congratulations! We seem to have found a valid SMTP account!";
 					PrintSuccessHack();
