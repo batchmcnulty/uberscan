@@ -165,5 +165,7 @@ echo "Host *"
 echo "    StrictHostKeyChecking no"
 echo "    UserKnownHostsFile=/dev/null"
 echo " "
-echo " "
-
+echo " Copying uberscan.pl into /usr/bin... "
+sudo chmod +777 uberscan.pl
+sudo cp uberscan.pl /usr/bin/uberscan
+echo " Done. Bye now!"
