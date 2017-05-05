@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Batch file to install UBERSCAN's dependencies."
+echo "Batch file to install UBERSCAN and its dependencies."
 echo "Pausing to give you a chance to cancel."
 echo "- Remember, I need to be run with Superuser priveliges."
 echo "So if you didn't sudo me, hit CTRL-C and do that."
