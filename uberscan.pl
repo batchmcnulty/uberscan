@@ -2334,7 +2334,7 @@ sub HackSMTP()	{
 			print $reply;
 			$smtp_code = substr ($reply,0,3);
 			print "SMTP error code: $smtp_code";
-			unless ($smtp_code eq "250" || $smtp_code eq "220" || $smtp_code eq "211")	{
+			unless ($smtp_code eq "200" || $smtp_code eq "250" || $smtp_code eq "220" || $smtp_code eq "211")	{
 				print "### Proxy might have hit a blacklist or couldn't look me up cos we're evil haxxors ###";
 				print "### Proxy might have hit a blacklist or couldn't look me up cos we're evil haxxors ###";
 				print "### Proxy might have hit a blacklist or couldn't look me up cos we're evil haxxors ###";
