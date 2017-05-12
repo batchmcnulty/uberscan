@@ -1,4 +1,4 @@
-echo "Scans for Mirai / IOT shitboxes."
+echo "Scans for Mirai-vulnerable boxes."
 echo "This sets uberscan up to 'patrol' your LAN for devices vulnerable to the Mirai virus, for one hour."
 echo "It outputs text files if it finds anything with a Telnet port open and tries to hack said device"
 echo "using usernames and passwords on Mirai's wordlists. It's a bit inefficient - but eventually every username"
