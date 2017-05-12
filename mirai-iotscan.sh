@@ -1,5 +1,6 @@
 echo "Scans for Mirai / IOT shitboxes."
 
+uberscan -user:root -passblank -scantype:telnet -ipblock:192.168/16 
 uberscan -user:root -pass:xc3511 -scantype:telnet -ipblock:192.168/16 
 uberscan -user:root -pass:vizxv -scantype:telnet -ipblock:192.168/16 
 uberscan -user:root -pass:admin -scantype:telnet -ipblock:192.168/16 
