@@ -5,20 +5,23 @@ echo "- Remember, I need to be run with Superuser priveliges."
 echo "So if you didn't sudo me, hit CTRL-C and do that."
 echo "Otherwise simply wait one minute and I'll start work!"
 sleep 1m
+echo "."
+echo "Added this 4th Now 2017 to make it compatible with Raspberry Pies and other computers"
+sudo cpan HTTP::Request
+echo " ************ INSTALLED HTTP::Request ********************"
+echo " ************ INSTALLED HTTP::Request ********************"
+echo " ************ INSTALLED HTTP::Request ********************"
+echo " ************ INSTALLED HTTP::Request ********************"
+
+
 
 sudo cpan IO::Socket::INET
 echo " ******** INSTALLED IO::Socket::INET ***********************"
 echo " ******** INSTALLED IO::Socket::INET ***********************"
 echo " ******** INSTALLED IO::Socket::INET ***********************"
 echo " ******** INSTALLED IO::Socket::INET ***********************"
-echo " ******** INSTALLED IO::Socket::INET ***********************"
-echo " ******** INSTALLED IO::Socket::INET ***********************"
-echo " ******** INSTALLED IO::Socket::INET ***********************"
-echo " ******** INSTALLED IO::Socket::INET ***********************"
-echo " ******** INSTALLED IO::Socket::INET ***********************"
-echo " ******** INSTALLED IO::Socket::INET ***********************"
-echo " ******** INSTALLED IO::Socket::INET ***********************"
-echo " ******** INSTALLED IO::Socket::INET ***********************"
+ec
+e
 sleep 3
 #sudo cpan IO-Socket-Timeout
 sudo cpan IO::Socket::Timeout
@@ -26,28 +29,9 @@ echo " ******************* INSTALLED IO::Socket::Timeout ********************"
 echo " ******************* INSTALLED IO::Socket::Timeout ********************"
 echo " ******************* INSTALLED IO::Socket::Timeout ********************"
 echo " ******************* INSTALLED IO::Socket::Timeout ********************"
-echo " ******************* INSTALLED IO::Socket::Timeout ********************"
-echo " ******************* INSTALLED IO::Socket::Timeout ********************"
-echo " ******************* INSTALLED IO::Socket::Timeout ********************"
-echo " ******************* INSTALLED IO::Socket::Timeout ********************"
-echo " ******************* INSTALLED IO::Socket::Timeout ********************"
-echo " ******************* INSTALLED IO::Socket::Timeout ********************"
-echo " ******************* INSTALLED IO::Socket::Timeout ********************"
-echo " ******************* INSTALLED IO::Socket::Timeout ********************"
+
 sleep 3
 sudo cpan Net::Telnet
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
-echo " **********************INSTALLED Net::Telnet ***********************"
 echo " **********************INSTALLED Net::Telnet ***********************"
 echo " **********************INSTALLED Net::Telnet ***********************"
 echo " **********************INSTALLED Net::Telnet ***********************"
@@ -55,20 +39,6 @@ echo " **********************INSTALLED Net::Telnet ***********************"
 sleep 3
 
 sudo cpan Authen::Ntlm
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
-echo "**************************** INSTALLED Authen::Ntlm ***************************"
 echo "**************************** INSTALLED Authen::Ntlm ***************************"
 echo "**************************** INSTALLED Authen::Ntlm ***************************"
 echo "**************************** INSTALLED Authen::Ntlm ***************************"
@@ -81,24 +51,10 @@ echo " ******************************** INSTALLED Net::FTP *********************
 echo " ******************************** INSTALLED Net::FTP *******************************"
 echo " ******************************** INSTALLED Net::FTP *******************************"
 echo " ******************************** INSTALLED Net::FTP *******************************"
-echo " ******************************** INSTALLED Net::FTP *******************************"
-echo " ******************************** INSTALLED Net::FTP *******************************"
-echo " ******************************** INSTALLED Net::FTP *******************************"
-echo " ******************************** INSTALLED Net::FTP *******************************"
-echo " ******************************** INSTALLED Net::FTP *******************************"
-echo " ******************************** INSTALLED Net::FTP *******************************"
-echo " ******************************** INSTALLED Net::FTP *******************************"
 sleep 3
 
 sudo cpan Net::POP3
 # sudo cpan install Net::POP3::Perl
-echo " ******************************** INSTALLED Net::POP3 *******************************"
-echo " ******************************** INSTALLED Net::POP3 *******************************"
-echo " ******************************** INSTALLED Net::POP3 *******************************"
-echo " ******************************** INSTALLED Net::POP3 *******************************"
-echo " ******************************** INSTALLED Net::POP3 *******************************"
-echo " ******************************** INSTALLED Net::POP3 *******************************"
-echo " ******************************** INSTALLED Net::POP3 *******************************"
 echo " ******************************** INSTALLED Net::POP3 *******************************"
 echo " ******************************** INSTALLED Net::POP3 *******************************"
 echo " ******************************** INSTALLED Net::POP3 *******************************"
@@ -149,8 +105,6 @@ echo "**************************************************************************
 echo "Waiting 20 seconds for you to read this message..."
 sleep 20
 sudo cpan Net::SSH::Expect
-echo " ***************************** INSTALLED Net::SSH::Expect **************************"
-echo " ***************************** INSTALLED Net::SSH::Expect **************************"
 echo " ***************************** INSTALLED Net::SSH::Expect **************************"
 echo " ***************************** INSTALLED Net::SSH::Expect **************************"
 echo " ***************************** INSTALLED Net::SSH::Expect **************************"
