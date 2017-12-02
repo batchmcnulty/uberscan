@@ -6,21 +6,37 @@ Security program for pen-testing servers, routers and IoT devices
 
 UBERSCAN is designed to help pen-test servers and networks, and as a tool for people like me who are trying to get into the ethical hacking business to just get a handle on, for example, just how many devices are vulnerable to, say, the Mirai virus. Yes, it's a sort of wardialler and yes, it can be used to crack the passwords of servers and IoT devices, and no, it is not to be used for sinister or nefarious purposes (see LEGAL NOTICE).
 
+## Quick Start:
+Example command-line usage:
 
-CONTENTS:
+`uberscan -user:admin -passblank -scantype:telnet -random_ip -forktimes:20`
 
-0.... LEGAL NOTICE
+or
 
-1.... INSTALLATION
+`uberscan -user:root -password:admin -scantype:ssh -random_ip -forktimes:20`
 
-2.....ABSTRACT
-2.1...Introduction
-2.2...A note on wordlist mode
-2.3...The SSH scanner
-2.4...Easter eggs
-2.5...Signoff and whiny begging bit
+or maybe
 
-3.....OPTIONS
+`uberscan -userfile:wordlist.txt -passfile:wordlist.txt -scantype:telnet -random_ip -forktimes:15`
+
+Try combining and adjusting these various options until you find some fun things to play with!
+
+-------------------------------------------------------------------------------------------
+
+## CONTENTS:
+
+#### 0.... LEGAL NOTICE
+
+#### 1.... INSTALLATION
+
+#### 2.....ABSTRACT
+##### 2.1...Introduction
+##### 2.2...A note on wordlist mode
+##### 2.3...The SSH scanner
+##### 2.4...Easter eggs
+##### 2.5...Signoff and whiny begging bit
+
+#### 3.....OPTIONS
 
 
 ---------------------------------------------------------------------------------------
