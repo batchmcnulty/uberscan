@@ -19,7 +19,8 @@ or maybe
 
 `uberscan -userfile:wordlist.txt -passfile:wordlist.txt -scantype:telnet -random_ip -forktimes:15`
 
-Try combining and adjusting these various options until you find some fun things to play with!
+Try combining and adjusting these various options until you find some fun things to play with! 
+(ONLY KIDDING, I DON'T WANT TO GO TO JAIL AAAAAAARRRGGGHHHHHH!)
 
 -------------------------------------------------------------------------------------------
 
