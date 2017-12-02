@@ -1,3 +1,4 @@
+#!/bin/bash 
 echo "Scans for Mirai-vulnerable boxes."
 echo "This sets uberscan up to 'patrol' your LAN for devices vulnerable to the Mirai"
 echo "virus, for eight hours."
