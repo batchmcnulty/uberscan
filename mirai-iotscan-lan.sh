@@ -1,3 +1,5 @@
+#!/bin/bash 
+
 echo "Scans for Mirai vulnerable boxes."
 echo "This one uses wordlist files to sequentially search your LAN for Mirai-vulnerable IoT boxes."
 
