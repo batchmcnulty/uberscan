@@ -3700,7 +3700,7 @@ sub PrintOptions	{
 	print "\n Copyright (C) 2017 Batch McNulty. Distributed under the GNU GPL V3.0";
 	print "\n";
 	print "\n Usage:";
-	print "\n  uberscan -user:admin -pass:password -scantype:ftp";
+	print "\n  uberscan -user:admin -pass:password -scantype:pop3";
 	print "\n -Tries username 'admin' / password 'password'. Seeks POP3 servers";
 	print "\n\n";
 	print "\n\t\t Other options:";
