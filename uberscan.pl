@@ -3721,7 +3721,8 @@ sub PrintOptions	{
 	print "\n    -userblank";
 	print "\n    -passblank";
 	print "\n -userblank tries a blank username, -passblank a blank password - handy for ";
-	print "\n some HTTP challenges";
+	print "\n some HTTP challenges, but might not work too well - use with caution as ";
+	print "\n definitely doesn't work on SSH, dodgy on telnet mode and untested in others.";
 	print "\n";
 	print "\n   -ipblock:192.168.0/24 ";
 	print "\n Scan selected ipblock (/16 or /24) instead of using ipnumbers.txt";
