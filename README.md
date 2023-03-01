@@ -1,6 +1,7 @@
 # uberscan
 Security program for pen-testing servers, routers and IoT devices
 
+(btw my bitcoin address is 1PEDKUiUTxGNJ3XTPfXCTAjpzVzX1VZAme )
 
   Greeetings, comrades, and welcome to UBERSCAN 1.0
 
