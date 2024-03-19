@@ -2,6 +2,7 @@
 Security program for pen-testing servers, routers and IoT devices
 
 (btw my bitcoin address is 3A7yuqBcPAcVEM59bNAVQdTCmkxRb5JRgE  )
+
 (Here's an alternative, also for BTC, as I've been getting reports of some bitcoin wallets not supporting certain addresses: 1PEDKUiUTxGNJ3XTPfXCTAjpzVzX1VZAme )
 
   Greeetings, comrades, and welcome to UBERSCAN 1.0
